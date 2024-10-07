@@ -21,7 +21,7 @@ a disposición estadísticas de las verificaciones mediante un API REST.
 
 ### Pagina web (nivel 1)
 Aquí explico de manera detallada como desarrolle el método solicitado:
-<a href="https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/" target="_blank">Documentación del desarrollo</a>
+<a href="https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/" target="_blank">Como afronté el Examen de Mercadolibre</a>
 
 ## 🚀 **Descripción de la API REST**
 
