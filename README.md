@@ -2,13 +2,13 @@
 
 ---
 
-## Introducción del reto
+## 🧬 Introducción del reto
 
 Esta API logra identificar si una secuencia de ADN es mutante o humana y almacenar cada secuencia en una base de datos H2 para poner
 a disposición estadísticas de las verificaciones mediante un API REST. 
 
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 * Java 8 (Empleando IntelliJ IDEA)
 * Gradle (gestor de dependencias)
