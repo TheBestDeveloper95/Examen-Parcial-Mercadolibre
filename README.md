@@ -12,19 +12,19 @@ a disposición estadísticas de las verificaciones mediante un API REST.
 
 - **Java 8** *(Desarrollo con IntelliJ IDEA)*
 - **Gradle** *(Gestor de dependencias)*
-* Spring Boot 
-* H2 (Base de datos)
-* Postman (Cliente de Pruebas)
-* Junit (Test Unitarios)
-* Jmeter (Stress y Performance)
-* Render (API REST en nube)
+- **Spring Boot** *(Framework backend)*
+- **H2** *(Base de datos embebida)*
+- **Postman** *(Cliente para pruebas de API)*
+- **JUnit** *(Pruebas unitarias)*
+- **JMeter** *(Pruebas de estrés y performance)*
+- **Render** *(Despliegue en la nube de la API)*
 
 ### Pagina web (nivel 1)
 Aquí explico de manera detallada como desarrolle el método solicitado:
 https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/
 
 
-## Descripción API REST
+## 🚀 **Descripción de la API REST**
 
 <pre><code> URL local: http://localhost:8080</code></pre>
 
