@@ -129,9 +129,7 @@ URL JDBC: jdbc:h2:mem:testdb
 ![200OK.png](imagenes%2F200OK.png)
 
 * ### 📈 Estadísticas
-<pre><code>
-curl --location --request GET 'http://localhost:8080/stats'
-</code></pre>
+#### GET: http://localhost:8080/stats
 
 ![STATS.png](imagenes%2FSTATS.png)
 
