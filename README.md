@@ -21,8 +21,7 @@ a disposición estadísticas de las verificaciones mediante un API REST.
 
 ### Pagina web (nivel 1)
 Aquí explico de manera detallada como desarrolle el método solicitado:
-https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/
-
+<a href="https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/" target="_blank">Documentación del desarrollo</a>
 
 ## 🚀 **Descripción de la API REST**
 
@@ -137,6 +136,7 @@ curl --location --request GET 'http://localhost:8080/stats'
 ![STATS.png](imagenes%2FSTATS.png)
 
 ## 🗄️ Base de datos H2 para guardar los ADN´s verificados por la API.
+Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, sin que se repitan.
 
 ![H2.png](imagenes%2FH2.png)
 
