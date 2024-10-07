@@ -18,6 +18,7 @@ a disposición estadísticas de las verificaciones mediante un API REST.
 - **JUnit** *(Pruebas unitarias)*
 - **JMeter** *(Pruebas de estrés y performance)*
 - **Render** *(Despliegue en la nube de la API)*
+- **Docker Desktop** *(Deploy contenedor)*
 
 ### Pagina web (nivel 1)
 Aquí explico de manera detallada como desarrolle el método solicitado:
