@@ -10,8 +10,8 @@ a disposición estadísticas de las verificaciones mediante un API REST.
 
 ## 🛠️ Tecnologías utilizadas
 
-* Java 8 (Empleando IntelliJ IDEA)
-* Gradle (gestor de dependencias)
+- **Java 8** *(Desarrollo con IntelliJ IDEA)*
+- **Gradle** *(Gestor de dependencias)*
 * Spring Boot 
 * H2 (Base de datos)
 * Postman (Cliente de Pruebas)
