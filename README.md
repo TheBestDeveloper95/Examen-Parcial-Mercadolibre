@@ -69,7 +69,7 @@ Response:
     "ratio": 0.4
 }</code></pre>
 
-## Instalación en local
+## 🖥️ Instalación en local
 
 
 1. Clonar o  Descargar Proyecto desde la rama main:
@@ -86,13 +86,13 @@ Response:
 Controlador: org.h2.Driver
 URL JDBC: jdbc:h2:mem:testdb
 </code></pre>
-## Code coverage (>80%)
+## 📊 Cobertura de Código (>80%)
 
 ![img.png](imagenes%2Fimg.png)
 
-## Ejemplos de funcionamiento (Postman)
+## 🧪 Ejemplos de funcionamiento (Postman)
 
-* ### ADN Humano
+* ### 🔬 ADN Humano
 
 #### POST: http://localhost:8080/mutant/
 <pre><code>{
@@ -113,7 +113,7 @@ URL JDBC: jdbc:h2:mem:testdb
 
 ![403 fORBIDEN.png](imagenes%2F403%20fORBIDEN.png)
 
-* ### ADN Mutante
+* ### 🧬 ADN Mutante
 #### POST: http://localhost:8080/mutant/
 <pre><code>{
     "dna": [
@@ -129,18 +129,18 @@ URL JDBC: jdbc:h2:mem:testdb
 
 ![200OK.png](imagenes%2F200OK.png)
 
-* ### Estadísticas
+* ### 📈 Estadísticas
 <pre><code>
 curl --location --request GET 'http://localhost:8080/stats'
 </code></pre>
 
 ![STATS.png](imagenes%2FSTATS.png)
 
-## Base de datos H2 para guardar los ADN´s verificados por la API.
+## 🗄️ Base de datos H2 para guardar los ADN´s verificados por la API.
 
 ![H2.png](imagenes%2FH2.png)
 
-## Desafíos cumplidos:
+## 🏆 Desafíos cumplidos:
 ### Nivel 1: ✓
 ### Nivel 2: ✓ 
 ### Nivel 3: ✓
