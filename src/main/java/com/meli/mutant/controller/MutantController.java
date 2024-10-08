@@ -45,7 +45,7 @@ public class MutantController {
      * @return Si la verificacion es mutante retorna Status OK y si es humana retorna Status Forbidden.
      */
 
-    @PostMapping(value = "/mutant/")
+    @PostMapping(value = "/mutant")
     public Mono<ResponseEntity<String>> postIsMutant(@RequestBody() Payload payload) {
         return mutantDetector.isMutant(payload.getDna()).map(mutant -> ResponseEntity.status(HttpStatus.OK).body(""))
                 .defaultIfEmpty(ResponseEntity.status(HttpStatus.FORBIDDEN).body(""));
