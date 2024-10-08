@@ -7,7 +7,6 @@
 Esta API logra identificar si una secuencia de ADN es mutante o humana y almacenar cada secuencia en una base de datos H2 para poner
 a disposición estadísticas de las verificaciones mediante un API REST. 
 
----
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -21,7 +20,7 @@ a disposición estadísticas de las verificaciones mediante un API REST.
 - **Render** *(Despliegue en la nube de la API)*
 - **Docker Desktop** *(Deploy contenedor)*
 - **Swagger** *(Documentación interactiva de APIs)*
----
+
 ### Pagina web (nivel 1)
 Aquí explico de manera detallada como desarrolle el método solicitado:
 <a href="https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/" target="_blank">Como afronté el Examen de Mercadolibre</a>
@@ -70,7 +69,7 @@ Response:
     "count_human_dna": 100,
     "ratio": 0.4
 }</code></pre>
----
+
 ## 🖥️ Instalación en local
 
 
@@ -91,8 +90,6 @@ URL JDBC: jdbc:h2:mem:testdb
 ## 📊 Cobertura de Código (>80%)
 
 ![img.png](imagenes%2Fimg.png)
-
----
 
 ## 🧪 Ejemplos de funcionamiento (Postman)
 
@@ -138,14 +135,11 @@ URL JDBC: jdbc:h2:mem:testdb
 
 ![STATS.png](imagenes%2FSTATS.png)
 
----
-
 ## 🗄️ Base de datos H2 para guardar los ADN´s verificados por la API.
 Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, sin que se repitan.
 
 ![H2.png](imagenes%2FH2.png)
 
----
 ## 🗄️ Prueba de documentación con Swagger
 
 ![Swagger.png](imagenes%2FSwagger.png)

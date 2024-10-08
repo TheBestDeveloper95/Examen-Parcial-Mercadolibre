@@ -61,26 +61,3 @@ tasks.jar {
 bootJar {
 	enabled = true
 }
-
-/*
-dependencies {
-
-	//SPRING WEB
-	//implementation 'org.springframework.boot:spring-boot-starter-web'
-	//Junit
-	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
-	testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
-	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
-	//OPEN API con WEBFLUZ
-
-	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.1.0'
-	//implementation 'org.springdoc:springdoc-openapi-starter-webflux-ui:2.6.0'
-	//implementation 'org.springdoc:springdoc-openapi-webflux-ui:1.8.0'
-	//implementation 'org.springdoc:springdoc-openapi-ui:1.8.0'
-
-
-	testImplementation 'org.springframework.boot:spring-boot-starter-webflux'
-
-
-}
-*/
