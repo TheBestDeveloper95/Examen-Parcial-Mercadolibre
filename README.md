@@ -73,9 +73,9 @@ Response:
 ## 🖥️ Instalación en local
 
 
-1. Clonar o  Descargar Proyecto desde la rama main:
+1. Clonar o Descargar Proyecto desde la rama main:
 
-<pre><code>https://github.com/narengifor/mutant.git</code></pre>
+[Descargar aquí](https://github.com/TheBestDeveloper95/Examen-Parcial-Mercadolibre/archive/refs/heads/main.zip)
 
 2. Abrir el proyecto en intelliJ IDEA:
 
