@@ -9,7 +9,7 @@ RUN ./gradlew bootJar --no-daemon
 
 FROM openjdk:17-alpine
 
-EXPOSE 8080
+EXPOSE 9000
 
 COPY --from=build ./build/libs/mutant-0.0.1-SNAPSHOT.jar ./docker.jar
 
