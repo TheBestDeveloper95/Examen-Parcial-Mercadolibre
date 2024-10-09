@@ -87,6 +87,18 @@ Response:
 Controlador: org.h2.Driver
 URL JDBC: jdbc:h2:mem:testdb
 </code></pre>
+
+4. Enviar secuencia de ADN en formato JSON mediante:
+<pre><code>a)Postman: (Instalar postman)
+b)Swagger: llamandolo mediante http://localhost:8080/swagger-ui/index.html
+</code></pre>
+Si solo quieren testear el deploy de la API mediante render a continuación dejo el servicio en vivo:
+<pre><code>https://examen-parcial-mercadolibre.onrender.com
+
+La lógica es la misma:
+POST https://examen-parcial-mercadolibre.onrender.com/mutant
+GET  https://examen-parcial-mercadolibre.onrender.com/stats
+</code></pre>
 ## 📊 Cobertura de Código (>80%)
 
 ![img.png](imagenes%2Fimg.png)
@@ -148,3 +160,36 @@ Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, si
 ### Nivel 1: ✓
 ### Nivel 2: ✓ 
 ### Nivel 3: ✓
+
+## 🧬 Posibles Pruebas unitarias
+- **Mutante 1**
+
+<pre><code>{
+"dna": ["AAAA", "CCCC", "TCAG", "GGTC"]
+}</code></pre>
+- **Humano 1**
+
+<pre><code>{
+    "dna": ["AAAT", "AACC", "AAAC", "CGGG"]
+}</code></pre>
+
+
+- **Mutante 2**
+<pre><code>{
+    "dna": ["TGAC", "AGCC", "TGAC", "GGTC"]
+}</code></pre>
+
+- **Humano 2**
+<pre><code>{
+    "dna": ["TGAC", "ATCC", "TAAG", "GGTC"]
+}</code></pre>
+
+- **Mutante 3**
+<pre><code>{
+    "dna": ["TCGGGTGAT", "TGATCCTTT", "TACGAGTGA", "AAATGTACG", "ACGAGTGCT", "AGACACATG", "GAATTCCAA", "ACTACGACC", "TGAGTATCC"]
+}</code></pre>
+
+- **Mutante 4**
+<pre><code>{
+    "dna": ["TTTTTTTTT", "TTTTTTTTT", "TTTTTTTTT", "TTTTTTTTT", "CCGACCAGT", "GGCACCTCA", "AGGACACTA", "CAAAGGCAT", "GCAGTCCCC"]
+}</code></pre>
