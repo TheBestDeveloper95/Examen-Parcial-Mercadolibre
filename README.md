@@ -92,7 +92,7 @@ URL JDBC: jdbc:h2:mem:testdb
 <pre><code>a)Postman: (Instalar postman)
 b)Swagger: llamandolo mediante http://localhost:8080/swagger-ui/index.html
 </code></pre>
-Si solo quieren testear el deploy de la API mediante render a continuación dejo el servicio en vivo:
+Si solo quieren testear el deploy de la API de render con Postman a continuación dejo el servicio en vivo:
 <pre><code>https://examen-parcial-mercadolibre.onrender.com
 
 La lógica es la misma:
@@ -155,6 +155,19 @@ Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, si
 ## 🗄️ Prueba de documentación con Swagger
 
 ![Swagger.png](imagenes%2FSwagger.png)
+
+## 🧪 Ejemplos de funcionamiento (Render + Postman)
+
+#### POST: https://examen-parcial-mercadolibre.onrender.com/mutant
+![renderPost.png](imagenes%2FrenderPost.png)
+
+#### GET:  https://examen-parcial-mercadolibre.onrender.com/stats
+![renderGet.png](imagenes%2FrenderGet.png)
+
+Para más información sobre el reto, la implementación del resto de tecnologias y temas como la eficiencia
+y la complejidad cuadrática del algoritmo visitar mi pagina:
+
+<a href="https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/" target="_blank">Como afronté el Examen de Mercadolibre</a>
 
 ## 🏆 Desafíos cumplidos:
 ### Nivel 1: ✓
