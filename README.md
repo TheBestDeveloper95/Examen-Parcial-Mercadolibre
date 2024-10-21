@@ -99,7 +99,14 @@ La lógica es la misma:
 POST https://examen-parcial-mercadolibre.onrender.com/mutant
 GET  https://examen-parcial-mercadolibre.onrender.com/stats
 </code></pre>
+
+## 🖥️ Arquitectura
+![Arquitectura.png](imagenes%2FArquitectura.png)
+
+
 ## 📊 Cobertura de Código (>80%)
+
+La aplicación cuenta con test automatizados con cobertura por encima del 80%.
 
 ![img.png](imagenes%2Fimg.png)
 
@@ -163,6 +170,16 @@ Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, si
 
 #### GET:  https://examen-parcial-mercadolibre.onrender.com/stats
 ![renderGet.png](imagenes%2FrenderGet.png)
+
+
+
+## 🔨 Pruebas de rendimiento JMeter
+Se realizaron pruebas de rendimiento de la aplicación, recibiendo tráfico de peticiones por segundo, se probó desde 100
+usuarios por segundo hasta 3000, respondiendo correctamente la aplicación 2100 sin presentar error en la petición.
+
+![jmeterGetT.png](imagenes%2FjmeterGetT.png)
+
+![jmeterPostT.png](imagenes%2FjmeterPostT.png)
 
 Para más información sobre el reto, la implementación del resto de tecnologias y temas como la eficiencia
 y la complejidad cuadrática del algoritmo visitar mi pagina:
