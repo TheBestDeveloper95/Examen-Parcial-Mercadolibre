@@ -31,7 +31,7 @@
 - [Ejemplos de funcionamiento (Render + Postman)](#-ejemplos-de-funcionamiento-render--postman)
     - [Funcionamiento POST en Render](#funcionamiento-post-en-render)
     - [Funcionamiento GET en Render](#funcionamiento-get-en-render)
-- [Pruebas de rendimiento JMeter](#pruebas-de-rendimiento-jmeter)
+- [Pruebas de rendimiento JMeter](#-pruebas-de-rendimiento-jmeter)
 ## 🧬 Introducción del reto
 
 ###   Alcance:
