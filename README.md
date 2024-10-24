@@ -29,9 +29,10 @@
 - [Prueba de documentación con Swagger](#️-prueba-de-documentación-con-swagger)
 
 - [Ejemplos de funcionamiento (Render + Postman)](#-ejemplos-de-funcionamiento-render--postman)
-- [POST: https://examen-parcial-mercadolibre.onrender.com/mutant](#post-https-examen-parcial-mercadolibreonrendercommutant)
-- [GET: https://examen-parcial-mercadolibre.onrender.com/stats](#get-https-examen-parcial-mercadolibreonrendercomstats)
-- [Pruebas de rendimiento JMeter](#️Pruebas-de-rendimiento-JMeter)
+    - [POST: https://examen-parcial-mercadolibre.onrender.com/mutant](#post-https://examen-parcial-mercadolibreonrendercommutant)
+    - [GET: https://examen-parcial-mercadolibre.onrender.com/stats](#get-https://examen-parcial-mercadolibreonrendercomstats)
+
+- [Pruebas de rendimiento JMeter](#️pruebas-de-rendimiento-jmeter)
 ## 🧬 Introducción del reto
 
 ###   Alcance:
