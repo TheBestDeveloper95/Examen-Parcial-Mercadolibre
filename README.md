@@ -29,10 +29,9 @@
 - [Prueba de documentación con Swagger](#️-prueba-de-documentación-con-swagger)
 
 - [Ejemplos de funcionamiento (Render + Postman)](#-ejemplos-de-funcionamiento-render--postman)
-    - [POST: https://examen-parcial-mercadolibre.onrender.com/mutant](#post-https://examen-parcial-mercadolibreonrendercommutant)
-    - [GET: https://examen-parcial-mercadolibre.onrender.com/stats](#get-https://examen-parcial-mercadolibreonrendercomstats)
-
-- [Pruebas de rendimiento JMeter](#️pruebas-de-rendimiento-jmeter)
+    - [Funcionamiento POST en Render](#funcionamiento-post-en-render)
+    - [Funcionamiento GET en Render](#funcionamiento-get-en-render)
+- [Pruebas de rendimiento JMeter](#pruebas-de-rendimiento-jmeter)
 ## 🧬 Introducción del reto
 
 ###   Alcance:
@@ -204,10 +203,12 @@ Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, si
 
 ## 🧪 Ejemplos de funcionamiento (Render + Postman)
 
-#### POST: https://examen-parcial-mercadolibre.onrender.com/mutant
+#### Funcionamiento POST en Render
+<pre><code>POST: https://examen-parcial-mercadolibre.onrender.com/mutant</code></pre>
 ![renderPost.png](imagenes%2FrenderPost.png)
 
-#### GET:  https://examen-parcial-mercadolibre.onrender.com/stats
+#### Funcionamiento GET en Render
+<pre><code>GET:  https://examen-parcial-mercadolibre.onrender.com/stats</code></pre>
 ![renderGet.png](imagenes%2FrenderGet.png)
 
 
