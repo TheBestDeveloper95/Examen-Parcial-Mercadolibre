@@ -6,7 +6,7 @@
     - [Alcance](#alcance)
 
 - [Tecnologías utilizadas](#️-tecnologías-utilizadas)
-
+    - [Pagina web (nivel 1)](#Pagina-web-nivel-1)
 - [Descripción de la API REST](#-descripción-de-la-api-rest)
     - [HTTP POST (mediante Postman)](#http-post-mediante-postman)
     - [HTTP GET (mediante Postman)](#http-get-mediante-postman)
@@ -29,9 +29,9 @@
 - [Prueba de documentación con Swagger](#️-prueba-de-documentación-con-swagger)
 
 - [Ejemplos de funcionamiento (Render + Postman)](#-ejemplos-de-funcionamiento-render--postman)
-- [POST: https://examen-parcial-mercadolibre.onrender.com/mutant](#-post-https-examen-parcial-mercadolibreonrendercommutant)
-- [GET: https://examen-parcial-mercadolibre.onrender.com/stats](#-get-https-examen-parcial-mercadolibreonrendercomstats)
-- [Pruebas de rendimiento JMeter](#️-Pruebas-de-rendimiento-JMeter)
+- [POST: https://examen-parcial-mercadolibre.onrender.com/mutant](#post-https-examen-parcial-mercadolibreonrendercommutant)
+- [GET: https://examen-parcial-mercadolibre.onrender.com/stats](#get-https-examen-parcial-mercadolibreonrendercomstats)
+- [Pruebas de rendimiento JMeter](#️Pruebas-de-rendimiento-JMeter)
 ## 🧬 Introducción del reto
 
 ###   Alcance:
