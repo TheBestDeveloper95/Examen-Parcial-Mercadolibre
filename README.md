@@ -2,9 +2,35 @@
 
 ---
 ## Indice 📖
-- [Introducción del reto](#Introducción-del-reto)
-- [Tecnologías utilizadas](#Tecnologías-utilizadas)
-- [Pagina web](#Pagina-web)
+- [Introducción del reto](#-introducción-del-reto)
+    - [Alcance](#alcance)
+
+- [Tecnologías utilizadas](#️-tecnologías-utilizadas)
+
+- [Descripción de la API REST](#-descripción-de-la-api-rest)
+    - [HTTP POST (mediante Postman)](#http-post-mediante-postman)
+    - [HTTP GET (mediante Postman)](#http-get-mediante-postman)
+
+- [Instalación en local](#️-instalación-en-local)
+
+- [Diagrama de Arquitectura](#️-diagrama-de-arquitectura)
+
+- [Diagrama de secuencia](#️-diagrama-de-secuencia)
+
+- [Cobertura de Código (>80%)](#-cobertura-de-código-80)
+
+- [Ejemplos de funcionamiento (Postman)](#-ejemplos-de-funcionamiento-postman)
+    - [ADN Humano](#-adn-humano)
+    - [ADN Mutante](#-adn-mutante)
+    - [Estadísticas](#-estadísticas)
+
+- [Base de datos H2 para guardar los ADN´s verificados por la API](#️-base-de-datos-h2-para-guardar-los-adns-verificados-por-la-api)
+
+- [Prueba de documentación con Swagger](#️-prueba-de-documentación-con-swagger)
+
+- [Ejemplos de funcionamiento (Render + Postman)](#-ejemplos-de-funcionamiento-render--postman)
+- [POST: https://examen-parcial-mercadolibre.onrender.com/mutant](#post-https-examen-parcial-mercadolibreonrendercommutant)
+- [GET: https://examen-parcial-mercadolibre.onrender.com/stats](#get-https-examen-parcial-mercadolibreonrendercomstats)
 ## 🧬 Introducción del reto
 
 ###   Alcance:
@@ -112,7 +138,7 @@ GET  https://examen-parcial-mercadolibre.onrender.com/stats
 ## 🖥️ Diagrama de Arquitectura
 ![Arquitectura.png](imagenes%2FArquitectura.png)
 
-## 🖥️ Diagrama secuencial del proyecto:
+## 🖥️ Diagrama de secuencia
 ![Secuencia1.png](imagenes%2FSecuencia1.png)
 
 ## 📊 Cobertura de Código (>80%)
