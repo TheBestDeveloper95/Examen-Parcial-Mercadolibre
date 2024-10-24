@@ -1,11 +1,20 @@
 # **Examen Parcial - API Mutante Mercadolibre**
 
 ---
-
+## Indice 📖
+- [Introducción del reto](#Introducción-del-reto)
+- [Tecnologías utilizadas](#Tecnologías-utilizadas)
+- [Pagina web](#Pagina-web)
 ## 🧬 Introducción del reto
 
+###   Alcance:
 Esta API logra identificar si una secuencia de ADN es mutante o humana y almacenar cada secuencia en una base de datos H2 para poner
 a disposición estadísticas de las verificaciones mediante un API REST. 
+
+Contará con dos servicios web.
+Un servicio web será "/mutant/", que se encargará de determinar si un adn humano o mutante. En caso de verificar un mutante, debería devolver un HTTP 200-OK, en caso contrario un 403-Forbidden
+El otro servicio web será "/stats" que se encargará devolver un Json con las estadísticas de las verificaciones de ADN.
+Se guardara el request y un boolean si es mutante o no en la base de datos, ademas de las veces que se hizo la misma request.
 
 
 ## 🛠️ Tecnologías utilizadas
@@ -31,7 +40,7 @@ Aquí explico de manera detallada como desarrolle el método solicitado:
 
 ### HTTP POST (mediante Postman)
 
-Permite enviar un JSON con una secuencia de ADN y recibe como respuesta un Status en este caso 200 OK si es mutante y 403 Forbidden
+Permite enviar un JSON con una secuencia de ADN y recibe como respuesta un Status 200 OK si es mutante y 403 Forbidden
 en caso de ser humano
 
 Path: http://localhost:8080/mutant
@@ -100,9 +109,11 @@ POST https://examen-parcial-mercadolibre.onrender.com/mutant
 GET  https://examen-parcial-mercadolibre.onrender.com/stats
 </code></pre>
 
-## 🖥️ Arquitectura
+## 🖥️ Diagrama de Arquitectura
 ![Arquitectura.png](imagenes%2FArquitectura.png)
 
+## 🖥️ Diagrama secuencial del proyecto:
+![Secuencia1.png](imagenes%2FSecuencia1.png)
 
 ## 📊 Cobertura de Código (>80%)
 
