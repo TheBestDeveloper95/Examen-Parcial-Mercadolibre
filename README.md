@@ -144,10 +144,15 @@ GET  https://examen-parcial-mercadolibre.onrender.com/stats
 
 ## 📊 Cobertura de Código (>80%)
 
-La aplicación cuenta con test automatizados con cobertura por encima del 80%.
+La aplicación cuenta con cobertura de código total por encima del 80%.
 
 ![img.png](imagenes%2Fimg.png)
 
+Realice un segúndo coverage con el test de cobertura predeterminado mediante la herramienta integrada en Intellij.
+
+![CoverageIntellij.png](imagenes%2FCoverageIntellij.png)
+
+No tenia sincronizado el proyecto de Intellij con la rama principal del repo de Github por eso model dio más bajo que el primer coverage.
 ## 🧪 Ejemplos de funcionamiento (Postman)
 
 * ### 🔬 ADN Humano
