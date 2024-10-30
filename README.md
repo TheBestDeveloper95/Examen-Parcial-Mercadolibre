@@ -1,5 +1,7 @@
 # **Examen Parcial - API Mutante Mercadolibre**
-
+![GitHub](https://img.shields.io/github/license/TheBestDeveloper95/Examen-Parcial-Mercadolibre)
+![GitHub last commit](https://img.shields.io/github/last-commit/TheBestDeveloper95/Examen-Parcial-Mercadolibre)
+![GitHub issues](https://img.shields.io/github/issues/TheBestDeveloper95/Examen-Parcial-Mercadolibre)
 ---
 ## Indice 📖
 - [Introducción del reto](#-introducción-del-reto)
