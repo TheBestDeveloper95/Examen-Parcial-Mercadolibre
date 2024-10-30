@@ -63,7 +63,6 @@ Se guardara el request y un boolean si es mutante o no en la base de datos, adem
 Aquí explico de manera detallada como desarrolle el método solicitado:
 <a href="https://thebestdeveloper95.github.io/Documentacion-HTML-Examen-Mercadolibre/" target="_blank">Como afronté el Examen de Mercadolibre</a>
 
-## 🚀 **Descripción de la API REST**
 
 <pre><code> URL local: http://localhost:8080</code></pre>
 
@@ -155,7 +154,7 @@ Realice un segúndo coverage con el test de cobertura predeterminado mediante la
 ![CoverageIntellij.png](imagenes%2FCoverageIntellij.png)
 
 No tenia sincronizado el proyecto de Intellij con la rama principal del repo de Github por eso model dio más bajo que el primer coverage.
-## 🧪 Ejemplos de funcionamiento (Postman)
+## 🧪 Ejemplos de funcionamiento en Local con (Postman)
 
 * ### 🔬 ADN Humano
 
