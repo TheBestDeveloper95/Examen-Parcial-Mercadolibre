@@ -34,6 +34,8 @@
     - [Funcionamiento POST en Render](#funcionamiento-post-en-render)
     - [Funcionamiento GET en Render](#funcionamiento-get-en-render)
 - [Pruebas de rendimiento JMeter](#-pruebas-de-rendimiento-jmeter)
+- [Live test](#-live-test)
+
 ## 🧬 Introducción del reto
 
 ###   Alcance:
@@ -141,19 +143,29 @@ GET  https://examen-parcial-mercadolibre.onrender.com/stats
 ![Arquitectura.png](imagenes%2FArquitectura.png)
 
 ## 🖥️ Diagrama de secuencia
-![Secuencia1.png](imagenes%2FSecuencia1.png)
 
+Diagrama de secuencia correspondiente a mutant
+
+![Secuencia stats.png](imagenes%2FSecuencia%20stats.png)
+
+Diagrama de secuencia correspondiente a stats
+
+![Secuencia mutant.png](imagenes%2FSecuencia%20mutant.png)
 ## 📊 Cobertura de Código (>80%)
 
-La aplicación cuenta con cobertura de código total por encima del 80%.
+La aplicación cuenta con cobertura de código muy por encima del 80%.
 
-![img.png](imagenes%2Fimg.png)
+![Test classees.png](imagenes%2FTest%20classees.png)
+
+Resultado Packages
+
+![Test pakages.png](imagenes%2FTest%20pakages.png)
 
 Realice un segúndo coverage con el test de cobertura predeterminado mediante la herramienta integrada en Intellij.
 
 ![CoverageIntellij.png](imagenes%2FCoverageIntellij.png)
 
-No tenia sincronizado el proyecto de Intellij con la rama principal del repo de Github por eso model dio más bajo que el primer coverage.
+
 ## 🧪 Ejemplos de funcionamiento en Local con (Postman)
 
 * ### 🔬 ADN Humano
@@ -199,7 +211,8 @@ No tenia sincronizado el proyecto de Intellij con la rama principal del repo de 
 ![STATS.png](imagenes%2FSTATS.png)
 
 ## 🗄️ Base de datos H2 para guardar los ADN´s verificados por la API.
-Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, sin que se repitan.
+Se utilizó H2 como base de datos para almacenar todas las secuencias de adn, sin que se repitan, 
+pero guardando el numero de veces que se realizo la misma request.
 
 ![H2.png](imagenes%2FH2.png)
 
@@ -272,3 +285,9 @@ y la complejidad cuadrática del algoritmo visitar mi pagina:
 <pre><code>{
     "dna": ["TTTTTTTTT", "TTTTTTTTT", "TTTTTTTTT", "TTTTTTTTT", "CCGACCAGT", "GGCACCTCA", "AGGACACTA", "CAAAGGCAT", "GCAGTCCCC"]
 }</code></pre>
+
+
+## 🖥️ Live test (Render)
+- **Swagger:**  https://examen-parcial-mercadolibre.onrender.com/swagger-ui/index.html
+- **Mutant check url:** POST:  https://examen-parcial-mercadolibre.onrender.com/mutant
+- **Stats url:** GET:  https://examen-parcial-mercadolibre.onrender.com/stats
