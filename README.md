@@ -35,6 +35,8 @@
     - [Funcionamiento GET en Render](#funcionamiento-get-en-render)
 - [Pruebas de rendimiento JMeter](#-pruebas-de-rendimiento-jmeter)
 
+- [Live test (Render)](#-live-test-render)
+
 ## 🧬 Introducción del reto
 
 ###   Alcance:
@@ -286,4 +288,9 @@ y la complejidad cuadrática del algoritmo visitar mi pagina:
 }</code></pre>
 
 
+## 🧬 Live test (Render)
 
+- **Swagger** https://examen-parcial-mercadolibre.onrender.com/swagger-ui/index.html
+- **H2**  https://examen-parcial-mercadolibre.onrender.com/h2-console
+- **Mutant check url (POST)**  https://examen-parcial-mercadolibre.onrender.com/mutant
+- **Stats url (GET)**  https://examen-parcial-mercadolibre.onrender.com/stats
