@@ -34,7 +34,6 @@
     - [Funcionamiento POST en Render](#funcionamiento-post-en-render)
     - [Funcionamiento GET en Render](#funcionamiento-get-en-render)
 - [Pruebas de rendimiento JMeter](#-pruebas-de-rendimiento-jmeter)
-- [Live test (Render)](#-live-test-render)
 
 ## 🧬 Introducción del reto
 
@@ -287,7 +286,3 @@ y la complejidad cuadrática del algoritmo visitar mi pagina:
 }</code></pre>
 
 
-## 🖥️ Live test (Render)
-- **Swagger:**  https://examen-parcial-mercadolibre.onrender.com/swagger-ui/index.html
-- **Mutant check url:** POST:  https://examen-parcial-mercadolibre.onrender.com/mutant
-- **Stats url:** GET:  https://examen-parcial-mercadolibre.onrender.com/stats
