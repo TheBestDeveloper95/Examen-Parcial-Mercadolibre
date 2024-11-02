@@ -292,5 +292,7 @@ y la complejidad cuadrática del algoritmo visitar mi pagina:
 
 - **Swagger** https://examen-parcial-mercadolibre.onrender.com/swagger-ui/index.html
 - **H2**  https://examen-parcial-mercadolibre.onrender.com/h2-console
+<pre><code>LEVANTAR H2 con este URL JDBC:  jdbc:h2:mem:testdb
+</code></pre>
 - **Mutant check url (POST)**  https://examen-parcial-mercadolibre.onrender.com/mutant
 - **Stats url (GET)**  https://examen-parcial-mercadolibre.onrender.com/stats
